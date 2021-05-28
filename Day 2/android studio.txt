@@ -1,0 +1,1 @@
+We learn how to crate new project in Android Studio. Then we learn some Basic Commands which are use in Android Studio.
