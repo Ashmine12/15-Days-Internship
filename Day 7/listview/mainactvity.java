@@ -1,0 +1,28 @@
+package com.example.listview;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.view.WindowManager;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+
+public class MainActivity extends AppCompatActivity {
+    ListView lv1;
+
+    String name[]={"av1","av2","av3","av4","av5","av6","av7","av8","av9","av10","av11","av12","av13","av14","av15","av16"};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        lv1=findViewById(R.id.lv1);
+
+
+     ArrayAdapter arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1,name);
+        lv1.setAdapter(arrayAdapter);
+    }
+}
