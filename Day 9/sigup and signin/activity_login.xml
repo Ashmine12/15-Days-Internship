@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email id"
-        android:id="@+id/etemail"
+        android:id="@+id/et1"
         android:textSize="30dp">
 
     </EditText>
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
-        android:id="@+id/etpassword"
+        android:id="@+id/et2"
         android:textSize="30dp"
         android:inputType="textPassword">
 
@@ -33,7 +33,7 @@
         android:text="Signin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/btnsignin"/>
+        android:id="@+id/b1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         android:text="Signup"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/btnsignup"/>
+        android:id="@+id/b2"/>
 
 
 </LinearLayout>
