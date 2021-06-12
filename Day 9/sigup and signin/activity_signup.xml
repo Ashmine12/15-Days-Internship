@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Name"
-        android:id="@+id/etname"
+        android:id="@+id/e1"
         android:textSize="30dp">
 
     </EditText>
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email id"
-        android:id="@+id/etemail"
+        android:id="@+id/e2"
         android:textSize="30dp">
 
     </EditText>
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
-        android:id="@+id/etpassword"
+        android:id="@+id/e3"
         android:textSize="30dp"
         android:inputType="textPassword">
 
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Phone No."
-        android:id="@+id/etphone"
+        android:id="@+id/e4"
         android:textSize="30dp"
         >
 
@@ -48,7 +48,7 @@
         android:text="Signup"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/btnsignup"/>
+        android:id="@+id/b1"/>
 
 
 </LinearLayout>
